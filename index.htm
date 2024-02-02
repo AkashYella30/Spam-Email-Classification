@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Classification</title>
+</head>
+<body>
+    <h1>Email Classification</h1>
+    <form action="/classify" method="post">
+        <label for="sentence">Enter the sentence:</label>
+        <input type="text" id="sentence" name="sentence">
+        <input type="submit" value="Submit">
+    </form>
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>

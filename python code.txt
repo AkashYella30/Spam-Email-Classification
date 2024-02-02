@@ -1,0 +1,15 @@
+ def theMaximumAchievableX(self, num, t):
+        """
+        :type num: int
+        :type t: int
+        :rtype: int
+        """
+        x=t
+        while (t>0):
+            num=num+1
+            t=t-1
+            a=num
+        for i in range(0,x):
+            a=a+1
+        return a
+        
